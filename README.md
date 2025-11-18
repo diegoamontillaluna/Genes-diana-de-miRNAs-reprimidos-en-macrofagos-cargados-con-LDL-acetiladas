@@ -8,9 +8,8 @@ Repositorio con los genes diana de miRNAs reprimidos en macrófagos humanos carg
 <br><br>
 ### Asignarura, Programación Científica
 ### Grupo No. 5, Integrantes
-|Nombre  |Profesión  |Descripción|
-|--|--|--|
-| Johana |  |  |
-| Elizabeth|  |  |
-| Diego|  |  |
-| Deivis|  |  |
+|Nombre  |
+| Johana |
+| Elizabeth|
+| Diego|
+| Deivis|
