@@ -10,7 +10,7 @@ Repositorio con los genes diana de miRNAs reprimidos en macrófagos humanos carg
 ### Grupo No. 5, Integrantes
 |Nombre  |
 |--|
-| Johana |
+| Deisy |
 | Elizabeth|
 | Diego|
 | Deivis|
