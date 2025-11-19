@@ -16,7 +16,7 @@ La carpeta [***src***](./src), donde compartimos un código en R que carga una b
 ### Grupo No. 5, Integrantes
 |Nombre  |
 |--|
-| Deisy Johanna Martinez Rios |
+| Deisy Johana Martinez Rios |
 | Elizabeth Rojas Vargas|
 | Diego Alejandro Montilla luna |
 | Deivis de Jesús Martínez Acosta|
