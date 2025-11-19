@@ -11,6 +11,6 @@ Repositorio con los genes diana de miRNAs reprimidos en macrófagos humanos carg
 |Nombre  |
 |--|
 | Deisy |
-| Elizabeth|
+| Elizabeth Rojas Vargas|
 | Diego|
 | Deivis|
