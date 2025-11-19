@@ -7,10 +7,10 @@
 Repositorio con los genes diana de miRNAs reprimidos en macrófagos humanos cargados con LDL-acetiladas, un modelo de arteriosclerosis. Incluye miR-33a-5p, miR-33b-5p, miR-144-3p, miR-758-3p y miR-106b-5p, con análisis de predicción, validación y funciones asociadas.
 <br>
 Este repositorio incluye la carpeta [***Bars_chart***](./Bars_chart), donde encontramos las imágenes de los diagramas de barra resultados de la actividad
-También incluye la carpeta ***Gene-annotation clusters network*** con las imágenes de las redes encontradas entre genes diana
-La carpeta ***Tables***, con la información de cada análisis en formato .tsv
-La carpeta ***RNA_target*** con los diagramas de Venn de la los genes dianas coincidentes de los miRNAs consultados en el experimento
-La carpeta ***src***, donde compartimos un código en R que carga una base de datos de pacientes, dividido en tres archivos
+También incluye la carpeta [***Gene-annotation clusters network***](./Gene-annotation clusters network) con las imágenes de las redes encontradas entre genes diana
+La carpeta [***Tables***](./Tables), con la información de cada análisis en formato .tsv
+La carpeta [***RNA_target***](./RNA_target) con los diagramas de Venn de la los genes dianas coincidentes de los miRNAs consultados en el experimento
+La carpeta [***src***](./src), donde compartimos un código en R que carga una base de datos de pacientes, dividido en tres archivos
 <br>
 ### Asignarura, Programación Científica
 ### Grupo No. 5, Integrantes
