@@ -9,7 +9,7 @@ Repositorio con los genes diana de miRNAs reprimidos en macrófagos humanos carg
 Este repositorio incluye la carpeta [***Bars_chart***](./Bars_chart), donde encontramos las imágenes de los diagramas de barra resultados de la actividad
 También incluye la carpeta [***Gene-annotation clusters network***](./Gene-annotation&#32;clusters&#32;network) con las imágenes de las redes encontradas entre genes diana
 La carpeta [***Tables***](./Tables), con la información de cada análisis en formato .tsv
-La carpeta [***RNA_target***](./RNA_target) con los diagramas de Venn de la los genes dianas coincidentes de los miRNAs consultados en el experimento
+La carpeta [***miRNA_targets***](./miRNA_targets) con los diagramas de Venn de la los genes dianas coincidentes de los miRNAs consultados en el experimento
 La carpeta [***src***](./src), donde compartimos un código en R que carga una base de datos de pacientes, dividido en tres archivos
 <br>
 ### Asignarura, Programación Científica
