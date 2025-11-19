@@ -1,69 +1,42 @@
+
 ---
-title: "metodologia"
-output: html_document
----
+# Metodología del proyecto
 
-1. Selección de miRNAs
+## 1. Selección de miRNAs  
+Se seleccionaron cinco miRNAs reprimidos en macrófagos humanos tratados con LDL-acetilada. Estos miRNAs están relacionados con regulación del metabolismo lipídico e inflamación.
 
-Se seleccionaron miRNAs reprimidos en macrófagos tratados con LDL-acetilada, relevantes en inflamación y metabolismo lipídico.
+## 2. Obtención de genes diana
 
-2. Obtención de genes diana
-A. Predicción de dianas
+### A. Predicción de dianas  
+Para cada miRNA se obtuvieron dianas de:
 
-TargetScanHuman
+- TargetScanHuman  
+- miRDB  
 
-miRDB
+### B. Validación experimental  
+Se consultó miRTarBase para identificar dianas validadas experimentalmente.
 
-miRTarBase (validación experimental)
+## 3. Integración y filtrado de datos  
+Para cada miRNA se generaron tres listas:
 
-Se descargaron las listas de genes diana para cada miRNA.
+- Genes diana predichos  
+- Genes diana validados  
+- Intersección entre herramientas  
 
-B. Validación experimental
+Posteriormente se identificaron:
 
-Se priorizaron genes con evidencia experimental.
+- Dianas únicas por miRNA  
+- Dianas compartidas entre dos o más miRNAs  
 
-3. Integración y filtrado
+## 4. Análisis funcional con GeneCodis  
+El análisis se realizó incluyendo:
 
-Para cada miRNA se obtuvieron tres listas:
+- GO Biological Process  
+- KEGG Pathways  
+- Reactome  
+- Panther  
+- WikiPathways  
 
-Dianas predichas
 
-Dianas validadas
-
-Dianas compartidas entre herramientas
-
-Luego se generaron:
-
-Dianas únicas por miRNA
-
-Dianas comunes entre miRNAs
-
-4. Análisis funcional (GeneCodis)
-
-Se empleó GeneCodis usando:
-
-GO Biological Process
-
-KEGG Pathways
-
-Reactome
-
-Panther
-
-WikiPathways
-
-Parámetros:
-
-Mínimo genes por categoría: 3
-
-Corrección estadística: FDR (Benjamini-Hochberg)
-
-5. Documentación y resultados
-
-Los resultados incluyen:
-
-Archivos .csv de genes diana
-
-Tablas de enriquecimiento
-
-Diagramas (Venn, pathways)
+## 5. Documentación  
+Los resultados y el flujo del análisis se documentaron en archivos Markdown dentro de la carpeta `docs/`.
