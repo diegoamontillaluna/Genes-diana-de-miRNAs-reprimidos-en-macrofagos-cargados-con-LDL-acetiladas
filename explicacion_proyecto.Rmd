@@ -1,0 +1,36 @@
+---
+title: "explicacion_proyecto"
+output: html_document
+---
+
+Título del proyecto
+
+Análisis de genes diana de miRNAs reprimidos en macrófagos humanos cargados con LDL-acetiladas
+
+Descripción general
+
+Este proyecto analiza los genes diana asociados a un conjunto de microARNs (miRNAs) que se encuentran reprimidos en macrófagos expuestos a LDL-acetilada, un modelo utilizado para estudiar procesos relacionados con la arteriosclerosis y la formación de células espumosas.
+
+Los miRNAs estudiados incluyen:
+
+hsa-miR-33a-5p
+
+hsa-miR-33b-5p
+
+hsa-miR-144-3p
+
+hsa-miR-758-3p
+
+hsa-miR-106b-5p
+
+El objetivo principal es identificar, comparar y caracterizar los genes diana y analizar su participación en procesos y rutas metabólicas relevantes.
+
+Objetivos del proyecto
+
+Identificar genes diana predichos y validados para cada miRNA.
+
+Comparar las dianas y detectar genes comunes.
+
+Realizar análisis funcional usando GeneCodis.
+
+Documentar todo el flujo de trabajo en un repositorio reproducible.
