@@ -1,0 +1,69 @@
+---
+title: "metodologia"
+output: html_document
+---
+
+1. Selección de miRNAs
+
+Se seleccionaron miRNAs reprimidos en macrófagos tratados con LDL-acetilada, relevantes en inflamación y metabolismo lipídico.
+
+2. Obtención de genes diana
+A. Predicción de dianas
+
+TargetScanHuman
+
+miRDB
+
+miRTarBase (validación experimental)
+
+Se descargaron las listas de genes diana para cada miRNA.
+
+B. Validación experimental
+
+Se priorizaron genes con evidencia experimental.
+
+3. Integración y filtrado
+
+Para cada miRNA se obtuvieron tres listas:
+
+Dianas predichas
+
+Dianas validadas
+
+Dianas compartidas entre herramientas
+
+Luego se generaron:
+
+Dianas únicas por miRNA
+
+Dianas comunes entre miRNAs
+
+4. Análisis funcional (GeneCodis)
+
+Se empleó GeneCodis usando:
+
+GO Biological Process
+
+KEGG Pathways
+
+Reactome
+
+Panther
+
+WikiPathways
+
+Parámetros:
+
+Mínimo genes por categoría: 3
+
+Corrección estadística: FDR (Benjamini-Hochberg)
+
+5. Documentación y resultados
+
+Los resultados incluyen:
+
+Archivos .csv de genes diana
+
+Tablas de enriquecimiento
+
+Diagramas (Venn, pathways)
