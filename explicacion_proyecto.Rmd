@@ -1,36 +1,24 @@
----
-title: "explicacion_proyecto"
-output: html_document
----
+# Explicación del proyecto
 
-Título del proyecto
-
+## Título  
 Análisis de genes diana de miRNAs reprimidos en macrófagos humanos cargados con LDL-acetiladas
 
-Descripción general
+## Descripción general  
+Este proyecto analiza los genes diana asociados a un conjunto de microARNs (miRNAs) reprimidos en macrófagos expuestos a LDL-acetilada, un modelo utilizado para estudiar procesos relacionados con la arteriosclerosis y la formación de células espumosas.
 
-Este proyecto analiza los genes diana asociados a un conjunto de microARNs (miRNAs) que se encuentran reprimidos en macrófagos expuestos a LDL-acetilada, un modelo utilizado para estudiar procesos relacionados con la arteriosclerosis y la formación de células espumosas.
+Los miRNAs incluidos en el análisis son:
 
-Los miRNAs estudiados incluyen:
+- hsa-miR-33a-5p  
+- hsa-miR-33b-5p  
+- hsa-miR-144-3p  
+- hsa-miR-758-3p  
+- hsa-miR-106b-5p  
 
-hsa-miR-33a-5p
+El objetivo principal es identificar, comparar y caracterizar los genes diana predichos y/o validados y analizar su participación en procesos biológicos y rutas metabólicas relevantes.
 
-hsa-miR-33b-5p
-
-hsa-miR-144-3p
-
-hsa-miR-758-3p
-
-hsa-miR-106b-5p
-
-El objetivo principal es identificar, comparar y caracterizar los genes diana y analizar su participación en procesos y rutas metabólicas relevantes.
-
-Objetivos del proyecto
-
-Identificar genes diana predichos y validados para cada miRNA.
-
-Comparar las dianas y detectar genes comunes.
-
-Realizar análisis funcional usando GeneCodis.
-
-Documentar todo el flujo de trabajo en un repositorio reproducible.
+## Objetivos del proyecto
+1. Identificar genes diana predichos y validados para cada miRNA.  
+2. Comparar las dianas entre los miRNAs.  
+3. Detectar genes compartidos y funciones asociadas.  
+4. Realizar análisis funcional usando GeneCodis.  
+5. Documentar un flujo de trabajo reproducible en GitHub.
